@@ -345,7 +345,7 @@ form#commentform input:not([type="checkbox"]) {
 --------------------------------------------------------------*/
 
 .js-ticker {
-  overflow: hidden;
+  overflow: auto;
 }
 
 .js-ticker-track {
@@ -361,7 +361,7 @@ form#commentform input:not([type="checkbox"]) {
 }
 .nbarmain {
   display: flex;
-  overflow: hidden;
+  overflow: auto;
   align-items: center;
 }
 

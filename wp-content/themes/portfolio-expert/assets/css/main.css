@@ -334,7 +334,7 @@ p.site-description {
 .npaper.search-box form label {
   display: block;
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .header .search-box a {
@@ -735,7 +735,7 @@ html body.admin-bar .slicknav_menu {
 /*Home intro style*/
 section.home-intro {
   min-height: 100vh;
-  overflow: hidden;
+  overflow: auto;
   color: #fff;
   background:radial-gradient(circle at 104.9% 51.2%, rgb(104 0 0) 0%, rgb(10 1 1) 15.9%, rgb(165 1 1) 15.9%, rgb(103 0 0) 24.4%, rgb(46 50 50) 24.5%, rgb(0 0 0) 66%)
 }
@@ -1032,7 +1032,7 @@ h2.widget-title {
 
 .nxsingle-post .post-thumbnail img {
   border-radius: 5px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 header.entry-header.page-header {
@@ -1316,7 +1316,7 @@ span.grid-meta-date:before {
 }
 
 a.grid-item-img-link {
-  overflow: hidden;
+  overflow: auto;
 }
 
 .grid-item-post .grid-item-details,
@@ -1530,14 +1530,3 @@ a#clickTop {
   outline: 2px solid #007bff;
 }
 
-/* Force scrolling override */
-html, body {
-  overflow: auto !important;
-  height: auto !important;
-}
-
-.site, .home, .page, .content, .wrapper {
-  min-height: auto !important;
-  height: auto !important;
-  position: static !important;
-}
