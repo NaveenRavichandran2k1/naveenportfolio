@@ -734,7 +734,7 @@ html body.admin-bar .slicknav_menu {
 
 /*Home intro style*/
 section.home-intro {
-  min-height: 100vh;
+  min-height: auto;
   overflow: auto;
   color: #fff;
   background:radial-gradient(circle at 104.9% 51.2%, rgb(104 0 0) 0%, rgb(10 1 1) 15.9%, rgb(165 1 1) 15.9%, rgb(103 0 0) 24.4%, rgb(46 50 50) 24.5%, rgb(0 0 0) 66%)
@@ -744,7 +744,7 @@ section.home-intro {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: auto;
 }
 
 .home-all-content>div {
@@ -1530,3 +1530,12 @@ a#clickTop {
   outline: 2px solid #007bff;
 }
 
+section.home-intro {
+  min-height: auto !important;   /* allow it to expand */
+  height: auto !important;       /* remove full viewport restriction */
+  overflow: auto !important;     /* ensure scroll works */
+}
+
+.home-all-content {
+  height: auto !important;       /* let content dictate height */
+}
