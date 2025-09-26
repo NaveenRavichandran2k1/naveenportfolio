@@ -169,7 +169,7 @@ iframe {
   clip-path: inset(50%);
   height: 1px;
   margin: -1px;
-  overflow: auto;
+  overflow: hidden;
   padding: 0;
   position: absolute !important;
   width: 1px;
@@ -345,7 +345,7 @@ form#commentform input:not([type="checkbox"]) {
 --------------------------------------------------------------*/
 
 .js-ticker {
-  overflow: auto;
+  overflow: hidden;
 }
 
 .js-ticker-track {
@@ -361,7 +361,7 @@ form#commentform input:not([type="checkbox"]) {
 }
 .nbarmain {
   display: flex;
-  overflow: auto;
+  overflow: hidden;
   align-items: center;
 }
 
