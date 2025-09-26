@@ -1529,3 +1529,15 @@ a#clickTop {
 .popup-trigger:focus {
   outline: 2px solid #007bff;
 }
+
+/* Force scrolling override */
+html, body {
+  overflow: auto !important;
+  height: auto !important;
+}
+
+.site, .home, .page, .content, .wrapper {
+  min-height: auto !important;
+  height: auto !important;
+  position: static !important;
+}
